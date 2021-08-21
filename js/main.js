@@ -6,17 +6,11 @@ const total = document.getElementById('update-total');
 const deliveryDayCost = document.getElementById('delivery-cost');
 
 
-
-
-
 // Memory price set 
 function memoryPriceSet(memory , memoryPrice){
     document.getElementById('memory'+memory);
     const memorySizeCost = document.getElementById('memory-size-cost');
     memorySizeCost.innerText  = memoryPrice ;
-   
-   
-    
     
 }
 
@@ -33,16 +27,13 @@ document.getElementById('memory8').addEventListener('click', function(){
 
 // Storage price set 
 
-
-
 function storagePriceSet(storage , storagePrice){
     
     document.getElementById('storage'+storage);
     const storageSizeCost = document.getElementById('storage-cost');
     
     storageSizeCost.innerText = storagePrice;
-    
-        
+       
 }
 
 document.getElementById('storage256').addEventListener('click', function(){
