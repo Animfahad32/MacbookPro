@@ -90,6 +90,7 @@ promoApply.addEventListener('click', function(){
     
     if(promoInput.value == 'stevekaku'){
         promoTotal.innerText = total.innerText - total.innerText*0.2;
+        promoInput.value = '';
     }
     
     
